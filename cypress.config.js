@@ -4,11 +4,19 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      
+
     },
     env: {
-      stagingSting: 'https://join-sting.onrender.com/',
-      productionSting: 'https://www.stingtv.co.il/'
+
+      paths: [
+        'lp/plus/',
+        'lp/perfect',
+        'lp/moving-perfect',
+        'lp/packages/',
+        'lp/stingtv-netflix/',
+        'lp/sting-ds/',
+        'lp/samsung-stingtv/'
+      ]
     }
 
 
