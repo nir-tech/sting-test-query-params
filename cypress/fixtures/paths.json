@@ -1,11 +1,9 @@
 {
-    "objects": [
-        "lp/plus/",
-        "lp/perfect",
-        "lp/moving-perfect",
-        "lp/packages/",
-        "lp/stingtv-netflix/",
-        "lp/sting-ds/",
-        "lp/samsung-stingtv/"
-      ]
+  "objects": [
+    "lp/packages/",
+    "lp/samsung-stingtv/",
+    "lp/sting-discovery/",
+    "lp/sting-ds/",
+    "lp/stingtv-netflix/"
+  ]
 }
