@@ -8,7 +8,7 @@ describe('Test that campaign_source query param changes phone number', () => {
     cy.fixture('paths.json').as('paths');
   });
 
-  it.only('Loop through all paths with relevant query params', function () {
+  it('Loop through all paths with relevant query params', function () {
     const queryParamsAndNumbers = this.queryParamsAndNumbers.objects;
     const paths = this.paths.objects;
 
