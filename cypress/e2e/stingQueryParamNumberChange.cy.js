@@ -20,8 +20,8 @@ describe('Test that campaign_source query param changes phone number', () => {
         cy.log('Current QueryParam:', queryParamsAndNumbers[i].queryParam);
         cy.log('Current Phone Number:', queryParamsAndNumbers[i].phoneNumber);
 
-        // The baseUrl is configured from a script inside package.json
         cy.visit('/' + path, {
+          // the content of the 'qs' are the query parameters to be appeneded to thg url
           qs: {
             campaign_source: queryParamsAndNumbers[i].queryParam,
           },
