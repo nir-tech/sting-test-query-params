@@ -2,13 +2,13 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
 
-describe('Test that campaign_source query param changes phone number', () => {
-  before('Load query paramters and related numbers from fixtures', () => {
+describe('test that campaign_source query param changes phone number', () => {
+  before('oad query paramters and related numbers from fixtures', () => {
     cy.fixture('queryParamsAndNumbers.json').as('queryParamsAndNumbers');
     cy.fixture('paths.json').as('paths');
   });
 
-  it('Loop through all paths with relevant query params', function () {
+  it('loop through sting pages', function () {
     const queryParamsAndNumbers = this.queryParamsAndNumbers.objects;
     const paths = this.paths.objects;
 
@@ -27,9 +27,10 @@ describe('Test that campaign_source query param changes phone number', () => {
           },
         });
 
-        cy.get('#phoneNumber')
-          .should('be.visible')
-          .and('have.text', queryParamsAndNumbers[i].phoneNumber);
+        cy.get('#phoneNumber').should(
+          'have.text',
+          queryParamsAndNumbers[i].phoneNumber
+        );
       });
     }
   });

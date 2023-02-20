@@ -1,7 +1,6 @@
 # sting-test-query-params
 
 A script that tests that query param changes a phone number in Sting landing pages.
-Run this script locally after
 
 ### How to use this test script
 

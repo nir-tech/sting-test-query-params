@@ -3,9 +3,9 @@
     "cypress": "^11.1.0"
   },
   "scripts": {
-    "cy-run-stage": "cypress run --config baseUrl=https://join-sting.onrender.com/",
-    "cy-open-stage": "cypress open --config baseUrl=https://join-sting.onrender.com//",
-    "cy-run-prod": "cypress run --config baseUrl=https://stingtv.co.il/",
-    "cy-open-prod": "cypress open --config baseUrl=https://stingtv.co.il/"
+    "cy:stage:run": "cypress run --config baseUrl=https://join-sting.onrender.com/",
+    "cy:stage:open": "cypress open --config baseUrl=https://join-sting.onrender.com//",
+    "cy:prod:run": "cypress run --config baseUrl=https://stingtv.co.il/",
+    "cy:prod:open": "cypress open --config baseUrl=https://stingtv.co.il/"
   }
 }

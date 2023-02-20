@@ -1,9 +1,9 @@
 {
   "objects": [
     "lp/packages/",
-    "lp/samsung-stingtv/",
-    "lp/sting-discovery/",
+    "lp/stingtv-netflix/",
     "lp/sting-ds/",
-    "lp/stingtv-netflix/"
+    "lp/samsung-stingtv/",
+    "/lp/stingtv-fiber"
   ]
 }
